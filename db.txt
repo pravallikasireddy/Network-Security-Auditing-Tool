@@ -1,0 +1,11 @@
+CREATE DATABASE audit;
+USE audit;
+
+CREATE TABLE members (
+    username VARCHAR(50) PRIMARY KEY,
+    password VARCHAR(50),
+    gender VARCHAR(50),
+    contactno VARCHAR(12),
+    email VARCHAR(50),
+    address VARCHAR(50)
+);
